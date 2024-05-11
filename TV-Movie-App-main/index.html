@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Movie</title>
+  <meta name="title" content="Tvflix" />
+  <meta name="description" content="Tvflix is a popular movie app." />
+  <link rel="shortcut icon" href="./assets/images/tv movie.png" type="image/svg+xml" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/js/global.js" defer></script>
+  <script src="./assets/js/index.js" type="module"></script>
+</head>
+
+<body>
+
+
+  <div class="formbox">
+    <span class="close_form"><ion-icon name="close"></ion-icon></span>
+    <div class="formboxlogin">
+        <h2>login</h2>
+        <form action="#">
+            <div class="containerbox">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" name="" id="foremail" required>
+                <label for="foremail"> Mail</label>
+            </div>
+            <div class="containerbox">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" name="" id="forpassword" required>
+                <label for="forpassword">password</label>
+            </div>
+            <div class="remember_me">
+                <label >
+                    <input type="checkbox">
+                    Remember me 
+                </label>
+                <a href="#"> Forgot password</a>
+            </div>
+            <button type=" submit" class="btnn">Login</button>
+             <div class="register">
+                <p>Don't have an account   <a href="#">Register</a></p>
+             </div>
+             <span className="loadingicon"><GiBatWing/></span>
+             
+        </form>
+    </div>
+
+
+    <div class="formboxregister">
+        <h2>Registration</h2>
+        <form action="#">
+            <div class="containerbox">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="text" name="" id="username" required>
+                <label for="username"> username</label>
+            </div>
+            <div class="containerbox">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" name="" id="foremail" required>
+                <label for="foremail"> Mail</label>
+            </div>
+            <div class="containerbox">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" name="" id="forpassword" required>
+                <label for="forpassword">password</label>
+            </div>
+            <div class="remember_me">
+                <label >
+                    <input type="checkbox">
+                    l agree to terms & conditions
+                </label>
+            </div>
+            <button type=" submit" class="btnn">Register</button>
+             <div class="Login_link">
+                <p>Already have an account  <a href="#">Login</a></p>
+             </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+<div class="icons">
+
+  <button class="login"> <img class="imgLogin" src="https://cdn-icons-png.flaticon.com/128/15329/15329400.png" alt=""></button>
+   <img class="imgFav" src="https://cdn-icons-png.flaticon.com/128/263/263417.png" alt="">
+   </div>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="./index.html" class="logo">
+      <img src="./assets/images/logo2.png" width="140" height="32" alt="Tvflix home" />
+    </a>
+
+    <div class="search-box" search-box>
+      <div class="search-wrapper" search-wrapper>
+        <input type="text" name="search" placeholder="Search any movies..." class="search-field"
+          aria-label="search movies" autocomplete="off" search-field />
+
+        <img src="./assets/images/search.png" width="24" height="24" alt="search" class="leading-icon" />
+      </div>
+
+      <button class="search-btn" search-toggler>
+        <img src="./assets/images/close.png" width="24" height="24" alt="close search box" />
+      </button>
+    </div>
+
+    <button class="search-btn" search-toggler menu-close>
+      <img src="./assets/images/search.png" width="24" height="24" alt="open search box" />
+    </button>
+
+    <button class="menu-btn" menu-btn menu-toggler>
+      <img src="./assets/images/menu.png" class="menu" width="24" height="24" alt="open menu" />
+      <img src="./assets/images/menu-close.png" width="24" height="24" alt="close menu" class="close" />
+    </button>
+
+  
+  </header>
+
+  
+
+  <main>
+    <!-- Sidebar -->
+    <nav class="sidebar" sidebar></nav>
+
+    <div class="overlay" overlay menu-toggler></div>
+
+    <article class="container" page-content></article>
+  
+
+  </main>
+
+</body>
+
+</html>
