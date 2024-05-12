@@ -1238,7 +1238,7 @@ top: 20px;
 
  .saffronFooter{
     font-family: 'DM Serif Display', serif;
-    color: white;
+    color:aliceblue;
     font-size: 2.5rem;
    letter-spacing: 7px;
     text-decoration: none !important;
@@ -1250,7 +1250,7 @@ top: 20px;
     display: flex;
 justify-content: center;
 text-align: center;
-color:white;
+color:rgb(255, 240, 240);
 letter-spacing: 4px;
 
  }
